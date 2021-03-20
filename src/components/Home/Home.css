@@ -1,0 +1,19 @@
+.vehicleList{
+    height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width:767px){
+    .vehicleList{
+        width: 100%;
+    }
+}
+
+#bgImage{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top:-180px;
+}

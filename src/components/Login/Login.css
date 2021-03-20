@@ -1,0 +1,53 @@
+.div-center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+}
+.form-style{
+    width: 50%;
+}
+p{
+    text-align: center;
+}
+input{
+    margin: 5px;
+    width:100%;
+    border:none;
+    border-bottom: 1px solid black;
+    padding: 10px 20px;
+}
+
+input[type=text]{
+    font-size: 20px;
+    color:green;
+    text-align: center;
+    box-sizing: border-box;
+    /* margin:20px; */
+}
+input[type=password]{
+    font-size: 20px;
+    color:green;
+    text-align: center;
+}
+.btn-style{
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding:10px;
+    font-size: 20px;
+
+}
+.container h2{
+    font-size: 40px;
+    text-align: center;
+    padding:10px 20px;
+    background-color:green;
+    color: white;
+    margin:40px 20px;
+}
+button:hover{
+    background-color: rgb(1, 61, 1);
+    color:white;
+}

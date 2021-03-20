@@ -1,0 +1,17 @@
+.car-image{
+    margin-top:150px;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #18ceee;
+}
+car-image img{
+    width: 150px;
+}
+.car-image:hover{
+    color:white;
+    background-color: rgb(3, 206, 87);
+}
