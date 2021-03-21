@@ -1,6 +1,13 @@
 # Getting Started with Create React App
+Hire Rider online - this app created in react .
+in this project we have added router, bootstrap, firebase authentication.
+how to use this app user guide has given in billow
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## user guide : 
+this is ongoing project - so many works has been left to add there. so do not try jump on destination page without click hompage items.
+## login option
+password and email also google login authentication added here. 
+password must have to over 8 lenght and number and simble. email have to valid
 
 ## Available Scripts
 
