@@ -14,7 +14,7 @@ function Login() {
   });
   initalizefirebase();
 
-  const [loggedInUser, setLoggedInUser ] = useContext(userContext);
+  const {loggedInUser, setLoggedInUser}  = useContext(userContext);
   const history = useHistory();
   const location = useLocation();
   let { from } = location.state || { from: { pathname: "/" } };
@@ -86,7 +86,7 @@ function Login() {
       newUser ? <h2>Create An Account</h2> : <h2> Please Login </h2>
     }  
     <div className=" div-center  m-2 ">
-        <div className=" form-style shadow p-3">
+        <div className=" form-style">
             
             <form onSubmit={handleSubmit} style={{ textAlign: 'center' }} >
                 {newUser && <input name="name" type="text" onBlur={handleBlur} placeholder="Enter your name" />}
@@ -119,33 +119,3 @@ function Login() {
 
 export default Login;
 
-
-
-{/* <div style={{textAlign: 'center'}}>
-{ user.isSignedIn ? <button onClick={signOut}>Sign Out</button> :
-  <button onClick={googleSignIn}>Sign In</button>
-}
-<br/>
-{
-  user.isSignedIn && <div>
-    <p>Welcome, {user.name}!</p>
-    <p>Your email: {user.email}</p>
-    <img src={user.photo} alt=""/>
-  </div>
-}
-
-<h1>Our own Authentication</h1>
-<input type="checkbox" onChange={() => setNewUser(!newUser)} name="newUser" id=""/>
-<label htmlFor="newUser">New User Sign up</label>
-<form onSubmit={handleSubmit}>
-  {newUser && <input name="name" type="text" onBlur={handleBlur} placeholder="Your name"/>}
-  <br/>
-  <input type="text" name="email" onBlur={handleBlur} placeholder="Your Email address" required/>
-  <br/>
-  <input type="password" name="password" onBlur={handleBlur} placeholder="Your Password" required/>
-  <br/>
-  <input type="submit" value={newUser ? 'Sign up' : 'Sign in'}/>
-</form>
-<p style={{color: 'red'}}>{user.error}</p>
-{ user.success && <p style={{color: 'green'}}>User { newUser ? 'created' : 'Logged In'} successfully</p>}
-</div> */}

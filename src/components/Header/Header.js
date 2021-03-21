@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import * as ReactBootstrap from "react-bootstrap";
 import { userContext } from '../../App';
 const Header = () => {
-    const [loggedInUser, setLoggedInUser] = useContext(userContext);
+    const {loggedInUser, setLoggedInUser} = useContext(userContext);
     return (
         <ReactBootstrap.Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Link to="/"> <ReactBootstrap.Navbar.Brand>  Express Rider</ReactBootstrap.Navbar.Brand></Link>
@@ -20,9 +20,7 @@ const Header = () => {
                     <ReactBootstrap.Nav.Link href="#deets">{loggedInUser.name}</ReactBootstrap.Nav.Link>
                     <ReactBootstrap.Nav.Link eventKey={2} href="#memes">
                         {loggedInUser.isSignedIn ?  "LogOut" : <Link to="/login">Login</Link>}
-                        {
-                            console.log(loggedInUser, "loggedinuser")
-                        }
+                     
       </ReactBootstrap.Nav.Link>
                 </ReactBootstrap.Nav>
             </ReactBootstrap.Navbar.Collapse>

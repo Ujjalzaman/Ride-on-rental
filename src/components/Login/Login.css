@@ -16,17 +16,17 @@ input{
     width:100%;
     border:none;
     border-bottom: 1px solid black;
-    padding: 10px 20px;
+    padding: 10px 10px;
+    outline: none;
+    
 }
-
+input[type=password],
 input[type=text]{
     font-size: 20px;
     color:green;
-    text-align: center;
+    /* text-align: center; */
     box-sizing: border-box;
-    /* margin:20px; */
-}
-input[type=password]{
+
     font-size: 20px;
     color:green;
     text-align: center;

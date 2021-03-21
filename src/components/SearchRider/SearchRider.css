@@ -1,22 +1,29 @@
-.type-img{
-    width: 50px;
+.map-style img{
+    background-image: cover;
+    /* border-left: 1px solid black; */
+    padding:15px;
+    border-radius: 20px;
 }
-.icon-img{
-    width: 20px;
-}
-.search-style{
-    height: 50px;
-    margin: 20px;
-    padding: 5px;
-    border-radius: 7px;
 
+.formStyle p{
+    background-color: rgb(212, 212, 212);
+    font-size: 20px;
+    padding: 0px 20px;
 }
-.button-style{
-    background-color: tomato;
-    color: white;
-    border: 0;
-    border-radius: 5px;
+
+input{
+    margin: 5px;
+    width:100%;
+    border:none;
+    border-bottom: 1px solid black;
+    padding: 10px 10px;
+    outline: none;
 }
-.form-style{
-    text-align: center;
+input[type=text]{
+    font-size: 15px;
+    color:green;
+    box-sizing: border-box;
+    margin: 10px 0px;
+    text-align: left;
 }
+

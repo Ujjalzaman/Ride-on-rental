@@ -1,0 +1,29 @@
+[{
+    "id": 1,
+    "vehicle": "Bike",
+    "image": "https://i.ibb.co/wBV6CzF/Frame.png",
+    "destination": "Dhaka",
+    "capacity": 2,
+    "fare": 67
+  }, {
+    "id": 2,
+    "vehicle": "Bus",
+    "image": "https://i.ibb.co/D75mqNk/Frame-1.png",
+    "destination": "Rajshahi",
+    "capacity": 4,
+    "fare": 67
+  }, {
+    "id": 3,
+    "vehicle": "Car",
+    "image": "https://i.ibb.co/NZpb4dy/Frame-2.png",
+    "destination": "Chittagong",
+    "capacity": 5,
+    "fare": 67
+  }, {
+    "id": 4,
+    "vehicle": "train",
+    "image": "https://i.ibb.co/c6BjKqN/Group.png",
+    "destination": "Sylhet",
+    "capacity": 10,
+    "fare": 67
+  }]
