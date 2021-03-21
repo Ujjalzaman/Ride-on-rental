@@ -2,6 +2,8 @@
 Hire Rider online - this app created in react .
 in this project we have added router, bootstrap, firebase authentication.
 how to use this app user guide has given in billow
+## live project
+firebase hosted : https://ride-on-rental.web.app/
 
 ## user guide : 
 this is ongoing project - so many works has been left to add there. so do not try jump on destination page without click hompage items.
